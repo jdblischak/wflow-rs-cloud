@@ -1,7 +1,7 @@
-name: "workflowr-project"
+name: workflowr-project
 output_dir: ../docs
 navbar:
-  title: "workflowr-project"
+  title: workflowr-project
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/jdblischak/wflow-rs-cloud
 output:
   workflowr::wflow_html:
     toc: yes
